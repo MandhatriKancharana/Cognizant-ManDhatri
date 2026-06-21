@@ -1,0 +1,109 @@
+Step 1: Create Database
+CREATE DATABASE StoreDB;
+GO
+
+Step 2: Use Database
+USE StoreDB;
+GO
+
+Step 3: Create Table
+CREATE TABLE Merchandise
+(
+    MerchandiseID INT PRIMARY KEY,
+    MerchandiseName VARCHAR(50),
+    SectionName VARCHAR(50),
+    Amount DECIMAL(10,2)
+);
+
+Step 4: Insert Data
+INSERT INTO Merchandise VALUES
+(1,'Camera','Gadgets',45000),
+(2,'Headphones','Gadgets',12000),
+(3,'Smart Watch','Gadgets',12000),
+(4,'Printer','Gadgets',9000),
+
+(5,'Jeans','Apparel',3000),
+(6,'Jacket','Apparel',5000),
+(7,'Shirt','Apparel',3000),
+(8,'Cap','Apparel',1000),
+
+(9,'Story Book','Reading',800),
+(10,'Dictionary','Reading',1200),
+(11,'Magazine','Reading',800),
+(12,'Notebook','Reading',400);
+
+Step 5: Verify Data
+SELECT * FROM Merchandise;
+
+Step 6: ROW_NUMBER()
+SELECT
+    MerchandiseID,
+    MerchandiseName,
+    SectionName,
+    Amount,
+    ROW_NUMBER() OVER
+    (
+        PARTITION BY SectionName
+        ORDER BY Amount DESC
+    ) AS RowNum
+FROM Merchandise;
+
+Step 7: RANK()
+SELECT
+    MerchandiseID,
+    MerchandiseName,
+    SectionName,
+    Amount,
+    RANK() OVER
+    (
+        PARTITION BY SectionName
+        ORDER BY Amount DESC
+    ) AS RankNum
+FROM Merchandise;
+
+Step 8: DENSE_RANK()
+SELECT
+    MerchandiseID,
+    MerchandiseName,
+    SectionName,
+    Amount,
+    DENSE_RANK() OVER
+    (
+        PARTITION BY SectionName
+        ORDER BY Amount DESC
+    ) AS DenseRankNum
+FROM Merchandise;
+
+Step 9: Final Assignment Query 
+WITH RankedMerchandise AS
+(
+    SELECT
+        MerchandiseID,
+        MerchandiseName,
+        SectionName,
+        Amount,
+
+        ROW_NUMBER() OVER
+        (
+            PARTITION BY SectionName
+            ORDER BY Amount DESC
+        ) AS RowNum,
+
+        RANK() OVER
+        (
+            PARTITION BY SectionName
+            ORDER BY Amount DESC
+        ) AS RankNum,
+
+        DENSE_RANK() OVER
+        (
+            PARTITION BY SectionName
+            ORDER BY Amount DESC
+        ) AS DenseRankNum
+
+    FROM Merchandise
+)
+
+SELECT *
+FROM RankedMerchandise
+WHERE RowNum <= 3;

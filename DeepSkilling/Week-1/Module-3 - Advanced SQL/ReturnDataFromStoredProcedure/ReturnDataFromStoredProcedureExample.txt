@@ -1,0 +1,45 @@
+Step 1: Create Database
+CREATE DATABASE CompanyDB;
+GO
+
+Step 2: Use Database
+USE CompanyDB;
+GO
+
+Step 3: Create Staff Table
+CREATE TABLE Staff
+(
+    StaffID INT IDENTITY(1,1) PRIMARY KEY,
+    StaffName VARCHAR(50),
+    DepartmentID INT,
+    Salary DECIMAL(10,2)
+);
+
+Step 4: Insert Sample Data
+INSERT INTO Staff
+(StaffName, DepartmentID, Salary)
+VALUES
+('Amit',1,50000),
+('Neha',1,55000),
+('Rohit',2,60000),
+('Kavya',2,62000),
+('Vikas',2,58000),
+('Pooja',3,70000);
+
+Step 5: Verify Data
+SELECT * FROM Staff;
+
+Step 6: Create Stored Procedure
+CREATE PROCEDURE sp_GetEmployeeCount
+    @DepartmentID INT
+AS
+BEGIN
+    SELECT COUNT(*) AS TotalEmployees
+    FROM Staff
+    WHERE DepartmentID = @DepartmentID;
+END;
+GO
+
+Step 7: Execute Stored Procedure
+EXEC sp_GetEmployeeCount @DepartmentID = 2;
+

@@ -1,0 +1,87 @@
+Step 1: Create Database
+CREATE DATABASE EmployeeDB;
+GO
+
+Step 2: Use Database
+USE EmployeeDB;
+GO
+
+Step 3: Create Employees Table
+CREATE TABLE Employees
+(
+    EmployeeID INT IDENTITY(1,1) PRIMARY KEY,
+    FirstName VARCHAR(50),
+    LastName VARCHAR(50),
+    DepartmentID INT,
+    Salary DECIMAL(10,2),
+    JoinDate DATE
+);
+
+Step 4: Insert Sample Data
+INSERT INTO Employees
+(FirstName, LastName, DepartmentID, Salary, JoinDate)
+VALUES
+('Rahul','Sharma',1,50000,'2024-01-10'),
+('Priya','Reddy',2,60000,'2023-05-15'),
+('Arjun','Kumar',1,55000,'2022-09-20'),
+('Sneha','Patel',3,65000,'2021-03-12');
+
+Step 5: Verify Data
+SELECT * FROM Employees;
+
+Step 6: Create Stored Procedure (Retrieve Employees by Department)
+CREATE PROCEDURE sp_GetEmployeesByDepartment
+    @DepartmentID INT
+AS
+BEGIN
+    SELECT *
+    FROM Employees
+    WHERE DepartmentID = @DepartmentID;
+END;
+GO
+
+Step 7: Execute Stored Procedure
+EXEC sp_GetEmployeesByDepartment @DepartmentID = 1;
+
+Step 8: Create sp_InsertEmployee
+
+Assignment lo ichina procedure:
+
+CREATE PROCEDURE sp_InsertEmployee
+    @FirstName VARCHAR(50),
+    @LastName VARCHAR(50),
+    @DepartmentID INT,
+    @Salary DECIMAL(10,2),
+    @JoinDate DATE
+AS
+BEGIN
+    INSERT INTO Employees
+    (
+        FirstName,
+        LastName,
+        DepartmentID,
+        Salary,
+        JoinDate
+    )
+    VALUES
+    (
+        @FirstName,
+        @LastName,
+        @DepartmentID,
+        @Salary,
+        @JoinDate
+    );
+END;
+GO
+
+Step 9: Execute Insert Procedure
+EXEC sp_InsertEmployee
+    @FirstName = 'Kiran',
+    @LastName = 'Verma',
+    @DepartmentID = 2,
+    @Salary = 70000,
+    @JoinDate = '2025-01-15';
+
+Step 10: Verify New Employee Added
+SELECT * FROM Employees;
+
