@@ -1,0 +1,11 @@
+What is Recursion?
+
+Recursion is a programming technique in which a method calls itself to solve a problem. It helps break down a complex problem into smaller, simpler subproblems.
+
+There are two important parts of recursion:
+
+Base Case – The condition that stops the recursive calls and prevents infinite recursion.
+
+Recursive Call – The method calls itself with a smaller or modified input to move toward the base case.
+
+
