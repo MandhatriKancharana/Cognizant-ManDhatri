@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mandhatri kancharana\\Downloads\\Cognizant_FSE_Full_Structure\\DeepSkilling\\Week-1\\Module-2 - Data Structures and Algorithms\\financialforecastingExample\\financialforecasting\\financialforecasting.csproj",
+      "projectUniqueName": "C:\\Users\\Mandhatri kancharana\\Downloads\\Cognizant_FSE_Full_Structure\\DeepSkilling\\Week-1\\Module-2 - Data Structures and Algorithms\\financialforecastingExample\\financialforecasting.csproj",
       "projectName": "financialforecasting",
-      "projectPath": "C:\\Users\\Mandhatri kancharana\\Downloads\\Cognizant_FSE_Full_Structure\\DeepSkilling\\Week-1\\Module-2 - Data Structures and Algorithms\\financialforecastingExample\\financialforecasting\\financialforecasting.csproj",
+      "projectPath": "C:\\Users\\Mandhatri kancharana\\Downloads\\Cognizant_FSE_Full_Structure\\DeepSkilling\\Week-1\\Module-2 - Data Structures and Algorithms\\financialforecastingExample\\financialforecasting.csproj",
       "packagesPath": "C:\\Users\\Mandhatri kancharana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mandhatri kancharana\\Downloads\\Cognizant_FSE_Full_Structure\\DeepSkilling\\Week-1\\Module-2 - Data Structures and Algorithms\\financialforecastingExample\\financialforecasting\\obj\\",
+      "outputPath": "C:\\Users\\Mandhatri kancharana\\Downloads\\Cognizant_FSE_Full_Structure\\DeepSkilling\\Week-1\\Module-2 - Data Structures and Algorithms\\financialforecastingExample\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mandhatri kancharana\\AppData\\Roaming\\NuGet\\NuGet.Config"

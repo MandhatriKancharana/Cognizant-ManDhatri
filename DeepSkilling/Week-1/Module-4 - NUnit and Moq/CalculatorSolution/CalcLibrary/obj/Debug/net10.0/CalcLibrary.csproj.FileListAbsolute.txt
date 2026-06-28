@@ -1,0 +1,12 @@
+C:\Users\Mandhatri kancharana\Downloads\Cognizant_FSE_Full_Structure\DeepSkilling\Week-1\Module-4 - NUnit and Moq\CalculatorSolution\CalcLibrary\bin\Debug\net10.0\CalcLibrary.deps.json
+C:\Users\Mandhatri kancharana\Downloads\Cognizant_FSE_Full_Structure\DeepSkilling\Week-1\Module-4 - NUnit and Moq\CalculatorSolution\CalcLibrary\bin\Debug\net10.0\CalcLibrary.dll
+C:\Users\Mandhatri kancharana\Downloads\Cognizant_FSE_Full_Structure\DeepSkilling\Week-1\Module-4 - NUnit and Moq\CalculatorSolution\CalcLibrary\bin\Debug\net10.0\CalcLibrary.pdb
+C:\Users\Mandhatri kancharana\Downloads\Cognizant_FSE_Full_Structure\DeepSkilling\Week-1\Module-4 - NUnit and Moq\CalculatorSolution\CalcLibrary\obj\Debug\net10.0\CalcLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mandhatri kancharana\Downloads\Cognizant_FSE_Full_Structure\DeepSkilling\Week-1\Module-4 - NUnit and Moq\CalculatorSolution\CalcLibrary\obj\Debug\net10.0\CalcLibrary.AssemblyInfoInputs.cache
+C:\Users\Mandhatri kancharana\Downloads\Cognizant_FSE_Full_Structure\DeepSkilling\Week-1\Module-4 - NUnit and Moq\CalculatorSolution\CalcLibrary\obj\Debug\net10.0\CalcLibrary.AssemblyInfo.cs
+C:\Users\Mandhatri kancharana\Downloads\Cognizant_FSE_Full_Structure\DeepSkilling\Week-1\Module-4 - NUnit and Moq\CalculatorSolution\CalcLibrary\obj\Debug\net10.0\CalcLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Mandhatri kancharana\Downloads\Cognizant_FSE_Full_Structure\DeepSkilling\Week-1\Module-4 - NUnit and Moq\CalculatorSolution\CalcLibrary\obj\Debug\net10.0\CalcLibrary.sourcelink.json
+C:\Users\Mandhatri kancharana\Downloads\Cognizant_FSE_Full_Structure\DeepSkilling\Week-1\Module-4 - NUnit and Moq\CalculatorSolution\CalcLibrary\obj\Debug\net10.0\CalcLibrary.dll
+C:\Users\Mandhatri kancharana\Downloads\Cognizant_FSE_Full_Structure\DeepSkilling\Week-1\Module-4 - NUnit and Moq\CalculatorSolution\CalcLibrary\obj\Debug\net10.0\refint\CalcLibrary.dll
+C:\Users\Mandhatri kancharana\Downloads\Cognizant_FSE_Full_Structure\DeepSkilling\Week-1\Module-4 - NUnit and Moq\CalculatorSolution\CalcLibrary\obj\Debug\net10.0\CalcLibrary.pdb
+C:\Users\Mandhatri kancharana\Downloads\Cognizant_FSE_Full_Structure\DeepSkilling\Week-1\Module-4 - NUnit and Moq\CalculatorSolution\CalcLibrary\obj\Debug\net10.0\ref\CalcLibrary.dll

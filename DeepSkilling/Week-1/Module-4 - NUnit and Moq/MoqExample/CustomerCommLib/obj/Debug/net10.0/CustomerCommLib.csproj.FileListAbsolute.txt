@@ -1,0 +1,12 @@
+C:\Users\Mandhatri kancharana\Downloads\Cognizant_FSE_Full_Structure\DeepSkilling\Week-1\Module-4 - NUnit and Moq\MoqExample\CustomerCommLib\bin\Debug\net10.0\CustomerCommLib.deps.json
+C:\Users\Mandhatri kancharana\Downloads\Cognizant_FSE_Full_Structure\DeepSkilling\Week-1\Module-4 - NUnit and Moq\MoqExample\CustomerCommLib\bin\Debug\net10.0\CustomerCommLib.dll
+C:\Users\Mandhatri kancharana\Downloads\Cognizant_FSE_Full_Structure\DeepSkilling\Week-1\Module-4 - NUnit and Moq\MoqExample\CustomerCommLib\bin\Debug\net10.0\CustomerCommLib.pdb
+C:\Users\Mandhatri kancharana\Downloads\Cognizant_FSE_Full_Structure\DeepSkilling\Week-1\Module-4 - NUnit and Moq\MoqExample\CustomerCommLib\obj\Debug\net10.0\CustomerCommLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mandhatri kancharana\Downloads\Cognizant_FSE_Full_Structure\DeepSkilling\Week-1\Module-4 - NUnit and Moq\MoqExample\CustomerCommLib\obj\Debug\net10.0\CustomerCommLib.AssemblyInfoInputs.cache
+C:\Users\Mandhatri kancharana\Downloads\Cognizant_FSE_Full_Structure\DeepSkilling\Week-1\Module-4 - NUnit and Moq\MoqExample\CustomerCommLib\obj\Debug\net10.0\CustomerCommLib.AssemblyInfo.cs
+C:\Users\Mandhatri kancharana\Downloads\Cognizant_FSE_Full_Structure\DeepSkilling\Week-1\Module-4 - NUnit and Moq\MoqExample\CustomerCommLib\obj\Debug\net10.0\CustomerCommLib.csproj.CoreCompileInputs.cache
+C:\Users\Mandhatri kancharana\Downloads\Cognizant_FSE_Full_Structure\DeepSkilling\Week-1\Module-4 - NUnit and Moq\MoqExample\CustomerCommLib\obj\Debug\net10.0\CustomerCommLib.sourcelink.json
+C:\Users\Mandhatri kancharana\Downloads\Cognizant_FSE_Full_Structure\DeepSkilling\Week-1\Module-4 - NUnit and Moq\MoqExample\CustomerCommLib\obj\Debug\net10.0\CustomerCommLib.dll
+C:\Users\Mandhatri kancharana\Downloads\Cognizant_FSE_Full_Structure\DeepSkilling\Week-1\Module-4 - NUnit and Moq\MoqExample\CustomerCommLib\obj\Debug\net10.0\refint\CustomerCommLib.dll
+C:\Users\Mandhatri kancharana\Downloads\Cognizant_FSE_Full_Structure\DeepSkilling\Week-1\Module-4 - NUnit and Moq\MoqExample\CustomerCommLib\obj\Debug\net10.0\CustomerCommLib.pdb
+C:\Users\Mandhatri kancharana\Downloads\Cognizant_FSE_Full_Structure\DeepSkilling\Week-1\Module-4 - NUnit and Moq\MoqExample\CustomerCommLib\obj\Debug\net10.0\ref\CustomerCommLib.dll

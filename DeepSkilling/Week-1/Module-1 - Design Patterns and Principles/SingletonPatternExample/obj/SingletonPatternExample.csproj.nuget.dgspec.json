@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Mandhatri kancharana\\Downloads\\Cognizant_FSE_Full_Structure\\DeepSkilling\\Week-1\\Module-1 - Design Patterns and Principles\\SingletonPatternExample\\SingletonPatternExample.csproj": {}
+    "C:\\Users\\Mandhatri kancharana\\Downloads\\Cognizant_FSE_Full_Structure\\DeepSkilling\\Week-1\\Module-1 - Design Patterns and Principles\\SingletonPatternExample\\SingletonPatternExample.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Mandhatri kancharana\\Downloads\\Cognizant_FSE_Full_Structure\\DeepSkilling\\Week-1\\Module-1 - Design Patterns and Principles\\SingletonPatternExample\\SingletonPatternExample.csproj": {
+    "C:\\Users\\Mandhatri kancharana\\Downloads\\Cognizant_FSE_Full_Structure\\DeepSkilling\\Week-1\\Module-1 - Design Patterns and Principles\\SingletonPatternExample\\SingletonPatternExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Mandhatri kancharana\\Downloads\\Cognizant_FSE_Full_Structure\\DeepSkilling\\Week-1\\Module-1 - Design Patterns and Principles\\SingletonPatternExample\\SingletonPatternExample.csproj",
+        "projectUniqueName": "C:\\Users\\Mandhatri kancharana\\Downloads\\Cognizant_FSE_Full_Structure\\DeepSkilling\\Week-1\\Module-1 - Design Patterns and Principles\\SingletonPatternExample\\SingletonPatternExample.csproj",
         "projectName": "SingletonPatternExample",
-        "projectPath": "c:\\Users\\Mandhatri kancharana\\Downloads\\Cognizant_FSE_Full_Structure\\DeepSkilling\\Week-1\\Module-1 - Design Patterns and Principles\\SingletonPatternExample\\SingletonPatternExample.csproj",
+        "projectPath": "C:\\Users\\Mandhatri kancharana\\Downloads\\Cognizant_FSE_Full_Structure\\DeepSkilling\\Week-1\\Module-1 - Design Patterns and Principles\\SingletonPatternExample\\SingletonPatternExample.csproj",
         "packagesPath": "C:\\Users\\Mandhatri kancharana\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Mandhatri kancharana\\Downloads\\Cognizant_FSE_Full_Structure\\DeepSkilling\\Week-1\\Module-1 - Design Patterns and Principles\\SingletonPatternExample\\obj\\",
+        "outputPath": "C:\\Users\\Mandhatri kancharana\\Downloads\\Cognizant_FSE_Full_Structure\\DeepSkilling\\Week-1\\Module-1 - Design Patterns and Principles\\SingletonPatternExample\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mandhatri kancharana\\AppData\\Roaming\\NuGet\\NuGet.Config"
